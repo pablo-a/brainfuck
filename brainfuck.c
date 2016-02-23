@@ -6,7 +6,7 @@
 /*   By: pabril <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/02/03 10:37:38 by pabril            #+#    #+#             */
-/*   Updated: 2016/02/03 10:58:53 by pabril           ###   ########.fr       */
+/*   Updated: 2016/02/09 11:48:15 by pabril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,14 +21,7 @@ int		main(int argc, char **argv)
 
 	k = 1;
 	i = 0;
-	tab = (unsigned char *)malloc(sizeof(unsigned char) * 2049);
-	while (tab[i])
-	{
-		tab[i] = 0;
-		i++;
-	}
-	tab[2048] = '\0';
-	i = 0;
+	tab = (unsigned char *)malloc(sizeof(unsigned char) * 5000);
 	while (argv[1][i])
 	{
 		if (argv[1][i] == '+')
