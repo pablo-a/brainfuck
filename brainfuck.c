@@ -15,6 +15,7 @@
 
 int		main(int argc, char **argv)
 {
+	//je fais un test.
 	int i;
 	int k;
 	unsigned char *tab;
